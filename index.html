@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200;1,300;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="cat1.jpg" id="content1" alt="" class="active" />
+        <img src="cat2.jpg" id="content2" alt="" />
+        <img src="cat3.jpg" id="content3" alt="" />
+        <img src="cat4.jpg" id="content4" alt="" />
+      </div>
+      <div class="dot-container">
+        <button onclick="dot(1)"></button>
+        <button onclick="dot(2)"></button>
+        <button onclick="dot(3)"></button>
+        <button onclick="dot(4)"></button>
+      </div>
+      <button id="prev" onclick="prev()">&lt;</button>
+      <button id="next" onclick="next()">&gt;</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
